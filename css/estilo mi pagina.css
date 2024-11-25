@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Limelight&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');            
+<title>Enlaces html</title>
+            <style type="text/css">
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+                
+            }
+            header, nav, main footer{
+                width: 960px;
+                width: 90%;
+                color: #855E6E;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: "Open Sans", sans-serif;
+                
+                
+            }
+            header{
+                /*width: 1280px;*/
+                height: 120px;
+                background-color: #855E6E;
+                color: #F7F1E1;
+                font-weight: bold;
+                font-weight: bolder;
+                text-align: center;
+                /*color: #536493*/
+            }
+h1{
+ font-family: "Limelight", sans-serif;
+}
+nav, main footer{
+    font-family: "Open+Sans:ital;
+}
+            li{
+                background-color: #FFB2C1;
+                text-align: center;
+                width: 100px;
+                margin-bottom: 10px;
+                padding: 20px;
+                border-width: 3px;
+                border-bottom-color: #CE7095;
+                border-bottom-style: solid;
+                display: inline-block;
+                border-radius: 20px;
+                
+            }
+            main{
+                background-color: #855E6E;
+                margin-left: 100px;
+                margin-right: 100px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                
+            }
+            footer{
+                background-color: #CE7095;
+                    
+            }
+             section{
+                width: 650px;
+                background-color: #F7F1E1;
+                color: #855E6E;
+                margin-left: 10px;
+                margin-top: 20px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+           
+                ul, li{
+                display: inline-block
+                width: 30%;
+               padding-left: 20px;
+            }
+            h5{
+                color: #E9EBBF;
+               padding-left: 90px;
+                padding: 20px;
+                text-align: center;
+                
+            }
+            a{
+                text-decoration: none;   
+            }
+            nav ul li a{
+                color: #F7F1E1;
+            }
+            nav ul li a:hover{
+                background-color: #855E6E;
+              
+            }
+            nave ul li:hover{
+                color: #855E6E;
+                font-weight: bold;
+                padding: 40px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            main nav{
+                width:900px;
+                color: #855E6E;
+            }
+            main nav ul li{
+                background-color: #FFB2C1;
+            
+            }
+            img{
+                width: 600px;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+            #icono{
+                width: 30px;
+            }
+#fondo_imagen{
+    background-image: url(../Medios/imagenes/fondo.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#filtros_imagen{
+    text-align: center;
+}
+#filtros_imagen img{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    }
+#img1{
+    filter:brightness(150%);
+}
+#img2{
+    filter: contrast(50%);
+}
+#img3{
+    filter: grayscale(100%);
+}
+#img4{
+    filter: invert(100%);
+}
+#img5{
+    filter: opacity(40%);
+}
+#img6{
+    filter: sepia(100%);
+}
+#img7{
+    filter: saturate(300%);
+}
+#img8{
+    filter: blur(1.5px);
+}
+#img9{
+    filter: drop-shadow(8px 8px 20px #855E6E);
+}
+#img10{
+    filter: saturate(300%) blur(1.5px);
+}
+#img11{
+    filter: hue-rotate(90deg);
+}
+iframe, audio{
+    display: block;
+    margin: 0 auto;
+}
